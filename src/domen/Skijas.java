@@ -152,6 +152,7 @@ public class Skijas extends AbstractObject {
         return Ime + " " + Prezime;
     }
 
+   
     
 
    

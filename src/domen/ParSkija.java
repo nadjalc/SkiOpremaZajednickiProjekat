@@ -171,7 +171,7 @@ public class ParSkija extends AbstractObject {
 
     @Override
     public String toString() {
-        return "ParSkija{" + "ParSkijaID=" + ParSkijaID + ", Duzina=" + Duzina + ", Radijus=" + Radijus + ", Vezovi=" + Vezovi + ", Marka=" + Marka + ", TipSkija=" + TipSkija + '}';
+        return ParSkijaID + ":" + Vezovi + ":" + Marka;
     }
 
   

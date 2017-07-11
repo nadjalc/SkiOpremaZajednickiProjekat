@@ -21,5 +21,8 @@ public class Konstante {
     public static final int KREIRAJ_REZERVACIJU_SKIJA = 8;
     public static final int PRETRAZI_REZERVACIJE = 9;
     public static final int ZAPAMTI_REZERVACIJU_SKIJA = 10;
+    public static final int UCITAJ_LISTU_REZERVACIJA = 11;
+    public static final int OBRISI_REZERVACIJU_VOZNJE = 12;
+    public static final int IZLOGUJ_KORISNIKA = 13;
 
 }

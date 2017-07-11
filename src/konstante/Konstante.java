@@ -24,5 +24,6 @@ public class Konstante {
     public static final int UCITAJ_LISTU_REZERVACIJA = 11;
     public static final int OBRISI_REZERVACIJU_VOZNJE = 12;
     public static final int IZLOGUJ_KORISNIKA = 13;
+    public static final int OBRISI_STAVKU_REZERVACIJE = 14;
 
 }

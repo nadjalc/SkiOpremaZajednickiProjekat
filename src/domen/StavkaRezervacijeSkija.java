@@ -134,4 +134,11 @@ public class StavkaRezervacijeSkija extends AbstractObject {
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "StavkaRezervacijeSkija{" + "RezervacijaSkija=" + RezervacijaSkija + ", ParSkija=" + ParSkija + ", RedniBrojStavke=" + RedniBrojStavke + '}';
+    }
+    
+    
+
 }

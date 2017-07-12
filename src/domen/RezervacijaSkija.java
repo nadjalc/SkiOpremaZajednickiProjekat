@@ -86,7 +86,7 @@ public class RezervacijaSkija extends AbstractObject {
     public String vratiUpdate() {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         String datum = sdf.format(DatumRezervacije);
-        return String.format("DatumRezervacije='%s',UplataUnapred='%d',VozacID='%s'", datum, (UplataUnapred) ? 1 : 0, Skijas.getSkijasID());
+        return String.format("DatumRezervacije='%s',UplataUnapred='%d',SkijasID='%s'", datum, (UplataUnapred) ? 1 : 0, Skijas.getSkijasID());
     }
 
     @Override

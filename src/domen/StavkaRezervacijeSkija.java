@@ -67,7 +67,7 @@ public class StavkaRezervacijeSkija extends AbstractObject {
                 int RedniBrojStavkeRB = rs.getInt("RedniBrojStavke");
                 RezervacijaSkija rez = new RezervacijaSkija(RezervacijaID, null, false, null, null);
                 ParSkija ps = new ParSkija(ParSkijaID, 0, 0, null, null, null);
-                StavkaRezervacijeSkija srs = new StavkaRezervacijeSkija(rez, ps, RedniBrojStavke);
+                StavkaRezervacijeSkija srs = new StavkaRezervacijeSkija(rez, ps, RedniBrojStavkeRB);
                 stavke.add(srs);
             }
         } catch (Exception e) {
@@ -128,11 +128,16 @@ public class StavkaRezervacijeSkija extends AbstractObject {
             return false;
         }
         final StavkaRezervacijeSkija other = (StavkaRezervacijeSkija) obj;
+        if (this.RedniBrojStavke != other.RedniBrojStavke) {
+            return false;
+        }
         if (!Objects.equals(this.RezervacijaSkija, other.RezervacijaSkija)) {
             return false;
         }
         return true;
     }
+
+
 
     @Override
     public String toString() {
